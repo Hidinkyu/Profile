@@ -1,0 +1,31 @@
+@import '../../vars.scss';
+
+@media (min-width: $mobile) {
+  .header {
+    border: 2px solid blue;
+  }
+}
+
+@media (min-width: $tablet) {
+  .header {
+    border: 2px solid green;
+  }
+}
+
+@media (min-width: $laptop) {
+  .header {
+    border: 2px solid yellow;
+  }
+}
+
+@media (min-width: $desktop) {
+  .header {
+    border: 2px solid orange;
+  }
+}
+
+@media (min-width: $xldesktop) {
+  .header {
+    border: 2px solid purple;
+  }
+}
